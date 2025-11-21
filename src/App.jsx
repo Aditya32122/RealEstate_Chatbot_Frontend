@@ -1,12 +1,12 @@
 
 import './App.css'
-import RealEstateChatbot from '../components/RealEstateChatbot'
+import REC from '../components/REC'
 
 function App() {
  
   return (
     <>
-    <RealEstateChatbot />
+    <REC />
     </>
   )
 }
