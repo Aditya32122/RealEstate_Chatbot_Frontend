@@ -223,6 +223,10 @@ const REC = () => {
                   <Sparkles size={16} className="text-yellow-500" />
                   Powered by Google Gemini AI + Qdrant Vector DB
                 </p>
+
+                <p className="text-sm text-gray-500 mt-2">
+                  It may upto 50 Seconds to start the server for the first time. Please be Patient
+                </p>
               </div>
             </div>
 
@@ -543,7 +547,7 @@ const REC = () => {
         </div>
       </div>
 
-      {/* ✅ Fixed: Regular style tag instead of jsx */}
+      {/*  style tag instead of jsx */}
       <style dangerouslySetInnerHTML={{__html: `
         .custom-scrollbar::-webkit-scrollbar {
           width: 8px;
